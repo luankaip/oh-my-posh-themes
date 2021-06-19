@@ -12,9 +12,9 @@
           "leading_diamond": "<#E8DC1F,>\uE0B2\uE0D2</>\uE0B2",
           "trailing_diamond": "\uE0B0<#E8DC1F,>\uE0D4\uE0B0</>",
           "properties": {
-			"prefix": "\uF7D9 ",
+            "prefix": "\uF7D9 ",
             "postfix": "",
-			"style": "roundrock",
+            "style": "roundrock",
             "always_enabled": true
           }
         },
@@ -23,7 +23,7 @@
           "style": "plain",
           "foreground": "#007ACC",
           "properties": {
-			"prefix": " \uF64F ",
+            "prefix": " \uF64F ",
             "time_format": "15:04:05"
           }
         }
@@ -53,11 +53,11 @@
           "leading_diamond": "\uE0B2",
           "trailing_diamond": "\uE0B0",
           "properties": {
-			"prefix": "<#7CFC00,>\uF872</> ",
+            "prefix": "<#7CFC00,>\uF872</> ",
             "postfix": "",
-			"user_color": "#DF8FCD",
+            "user_color": "#DF8FCD",
             "host_color": "#6CC1DF",
-			"user_info_separator": " @ "
+            "user_info_separator": " @ "
           }
         },
         {
@@ -67,7 +67,7 @@
           "background": "#95ffa4",
           "powerline_symbol": "\uE0B0",
           "properties" : {
-			"prefix": "\uF414 ",
+            "prefix": "\uF414 ",
             "postfix": "",
             "home_icon": "\uF015 ",
             "folder_icon": "\uF413",
@@ -82,7 +82,7 @@
           "background": "#91ddff",
           "powerline_symbol": "\uE0B0",
           "properties": {
-			"prefix": "\uF7A1 ",
+            "prefix": "\uF7A1 ",
             "postfix": "",
             "display_status": true,
             "display_stash_count": true,
@@ -95,7 +95,7 @@
             "ahead_color": "#2EC4B6",
             "behind_color": "#8A4FFF",
             "git_icon": "\uE255",
-			"commit_icon": "\uF417 "
+            "commit_icon": "\uF417 "
           }
         }
       ]
