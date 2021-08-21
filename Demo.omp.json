@@ -5,7 +5,7 @@
        "type": "prompt",
        "alignment": "right",
        "segments": [
-	    {
+       {
           "type": "exit",
           "style": "diamond",
           "foreground": "#ffffff",
@@ -17,40 +17,40 @@
             "always_enabled": true,
             "color_background": true,
             "error_color": "#FF6480",
-			"always_numeric": true,
-			"success_icon": "\uF441 SUCCESS",
-			"error_icon": "\uF188 ERROR:"
+            "always_numeric": true,
+            "success_icon": "\uF441 SUCCESS",
+            "error_icon": "\uF188 ERROR:"
           }
         },
-		{
+        {
           "type": "os",
           "style": "plain",
           "foreground": "#26C6DA",
           "properties": {
             "prefix": "",
             "macos": "\uF179 macOS",
-			"linux": "\uF17C Linux",
-			"windows": "\uF17A Windows",
-			"display_distro_name": true,
-			"alpine": "\uF300 Alpine",
-			"aosc": "\uF301 AOSC",
-			"arch": "\uF303 Arch",
-			"centos": "\uF304 CentOS",
-			"coreos": "\uF305 CoreOS",
-			"debian": "\uF306 Debian",
-			"devuan": "\uF307 Devuan",
-			"raspbian": "\uF315 Raspbian",
-			"elementary": "\uF309 Elementary",
-			"fedora": "\uF30A Fedora",
-			"gentoo": "\uF30D Gentoo",
-			"mageia": "\uF310 Mageia",
-			"manjaro": "\uF312 Manjaro",
-			"mint": "\uF30E Mint",
-			"nixos": "\uF313 NixOS",
-			"opensuse": "\uF314 openSUSE",
-			"sabayon": "\uF317 Sabayon",
-			"slackware": "\uF319 Slackware",
-			"ubuntu": "\uF31B Ubuntu"
+            "linux": "\uF17C Linux",
+            "windows": "\uF17A Windows",
+            "display_distro_name": true,
+            "alpine": "\uF300 Alpine",
+            "aosc": "\uF301 AOSC",
+            "arch": "\uF303 Arch",
+            "centos": "\uF304 CentOS",
+            "coreos": "\uF305 CoreOS",
+            "debian": "\uF306 Debian",
+            "devuan": "\uF307 Devuan",
+            "raspbian": "\uF315 Raspbian",
+            "elementary": "\uF309 Elementary",
+            "fedora": "\uF30A Fedora",
+            "gentoo": "\uF30D Gentoo",
+            "mageia": "\uF310 Mageia",
+            "manjaro": "\uF312 Manjaro",
+            "mint": "\uF30E Mint",
+            "nixos": "\uF313 NixOS",
+            "opensuse": "\uF314 openSUSE",
+            "sabayon": "\uF317 Sabayon",
+            "slackware": "\uF319 Slackware",
+            "ubuntu": "\uF31B Ubuntu"
           }
         },
         {
@@ -78,7 +78,7 @@
           }
         },
         {
-		  "type": "battery",
+          "type": "battery",
           "style": "diamond",
           "foreground": "#222222",
           "background": "#EF9355",
@@ -142,8 +142,8 @@
             "folder_icon": "\uF413",
             "folder_separator_icon": "\u27E9",
             "style": "full",
-			"enable_hyperlink": true,
-			"stack_count_enabled": true
+            "enable_hyperlink": true,
+            "stack_count_enabled": true
           }
         },
         {
