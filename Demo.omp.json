@@ -1,9 +1,58 @@
 {
+  "final_space": true,
   "blocks": [
     {
-      "type": "prompt",
-      "alignment": "right",
-      "segments": [
+       "type": "prompt",
+       "alignment": "right",
+       "segments": [
+	    {
+          "type": "exit",
+          "style": "diamond",
+          "foreground": "#ffffff",
+          "background": "#00897b",
+          "leading_diamond": "\uE0B6\uE0B4\uE0D4",
+          "trailing_diamond": "\uE0D2",
+          "properties": {
+            "display_exit_code": true,
+            "always_enabled": true,
+            "color_background": true,
+            "error_color": "#FF6480",
+			"always_numeric": true,
+			"success_icon": "\uF441 SUCCESS",
+			"error_icon": "\uF188 ERROR:"
+          }
+        },
+		{
+          "type": "os",
+          "style": "plain",
+          "foreground": "#26C6DA",
+          "properties": {
+            "prefix": "",
+            "macos": "\uF179 macOS",
+			"linux": "\uF17C Linux",
+			"windows": "\uF17A Windows",
+			"display_distro_name": true,
+			"alpine": "\uF300 Alpine",
+			"aosc": "\uF301 AOSC",
+			"arch": "\uF303 Arch",
+			"centos": "\uF304 CentOS",
+			"coreos": "\uF305 CoreOS",
+			"debian": "\uF306 Debian",
+			"devuan": "\uF307 Devuan",
+			"raspbian": "\uF315 Raspbian",
+			"elementary": "\uF309 Elementary",
+			"fedora": "\uF30A Fedora",
+			"gentoo": "\uF30D Gentoo",
+			"mageia": "\uF310 Mageia",
+			"manjaro": "\uF312 Manjaro",
+			"mint": "\uF30E Mint",
+			"nixos": "\uF313 NixOS",
+			"opensuse": "\uF314 openSUSE",
+			"sabayon": "\uF317 Sabayon",
+			"slackware": "\uF319 Slackware",
+			"ubuntu": "\uF31B Ubuntu"
+          }
+        },
         {
           "type": "executiontime",
           "style": "diamond",
@@ -24,7 +73,27 @@
           "foreground": "#007ACC",
           "properties": {
             "prefix": " \uF64F ",
-            "time_format": "15:04:05"
+            "postfix": "",
+            "time_format": "2006-01-02 15:04:05"
+          }
+        },
+        {
+		  "type": "battery",
+          "style": "diamond",
+          "foreground": "#222222",
+          "background": "#EF9355",
+          "leading_diamond": "\uE0D4",
+          "trailing_diamond": "\uE0CC\uE0D4\uE0B0",
+          "properties": {
+            "postfix": "% ",
+            "charging_icon": "\uF583",
+            "discharging_icon": "\uF58B",
+            "charged_icon": "\uF578",
+            "color_background": true,
+            "charged_color": "#3FC56B",
+            "charging_color": "#CACA02",
+            "discharging_color": "#D3D7CF",
+            "display_charging": true
           }
         }
       ]
@@ -72,7 +141,9 @@
             "home_icon": "\uF015 ",
             "folder_icon": "\uF413",
             "folder_separator_icon": "\u27E9",
-            "style": "full"
+            "style": "full",
+			"enable_hyperlink": true,
+			"stack_count_enabled": true
           }
         },
         {
@@ -110,7 +181,7 @@
           "style": "plain",
           "foreground": "#59C718",
           "properties": {
-            "prefix": " <#757575,>\u21B3</>",
+            "prefix": " <#757575,>\uE20F</> ",
             "postfix": ""
           }
         },
@@ -120,6 +191,7 @@
           "foreground": "#ff8080",
           "properties": {
             "prefix": " <#757575,>as</> ",
+            "postfix": "",
             "root_icon": "root"
           }
         },
@@ -137,6 +209,5 @@
         }
       ]
     }
-  ],
-  "final_space": true
+  ]
 }
