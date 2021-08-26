@@ -105,12 +105,14 @@
       "segments": [
         {
           "type": "root",
-          "style": "plain",
+          "style": "diamond",
           "foreground": "#ffffff",
           "background": "#4691E8",
+          "leading_diamond": "\uE0B6",
+          "trailing_diamond": "\uE0D2",
           "properties": {
-            "prefix": "<#4691E8,transparent>\uE0B6</>",
-            "postfix": "<transparent,#4691E8>\uE0B2</>",
+            "prefix": "",
+            "postfix": "",
             "root_icon": "\uF085 "
           }
         },
@@ -197,10 +199,11 @@
         },
         {
           "type": "text",
-          "style": "powerline",
+          "style": "diamond",
           "foreground": "#6AD2FF",
           "background": "#5A6D7A",
-          "powerline_symbol": "\uE0B0",
+          "leading_diamond": "\uE0D4",
+          "trailing_diamond": "\uE0B0",
           "properties": {
             "prefix": "",
             "postfix": " \uE0B1",
